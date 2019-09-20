@@ -2,15 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +17,12 @@
   color: #61dafb;
 }
 
+main {
+  padding: 30px;
+  background-color: gray;
+  height: 75vh;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -30,4 +30,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.poster {
+  border: 1px solid #333;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  min-width: 300px;
+  background-color: #eee;
+}
+
+.show-bounty {
+  border: 4px solid black;
+  padding-bottom: 10px;
+  background-color: mediumspringgreen;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.bounty-form {
+  padding: 0 10px 10px 10px;
+  background-color: beige;
+  border: 4px solid #555;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bounty-form input {
+  width: 100%;
 }
